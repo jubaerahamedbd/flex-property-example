@@ -3,20 +3,36 @@
     background-color: rgb(160, 23, 23);
     padding: 50px;
     font-size: 30px;
-    width: 20px;
-    max-height: 5px;
+
+
 }
 .two, .four, .six{
     background-color: rgb(12, 166, 177);
     padding: 50px;
     font-size: 30px;
-    width: 20px;
+    
 }
   .container{
     display: flex;
-    
+    flex-flow: row wrap;
    
 }  
-.item{
-    flex-shrink: 0;
+/* flex basis*/
+/* .item{
+    flex-basis: 100px;
+} */
+.one{
+    flex-basis: 50px;
 }
+.two{
+    flex-basis: 100px;
+}
+.three{
+    flex-basis: 70px;
+}
+.four{
+    flex-basis: 50px;
+}
+/*Best responsive property
+flex: flex-grow flex-shrink flex-basis
+*/
