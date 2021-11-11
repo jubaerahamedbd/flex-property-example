@@ -11,19 +11,9 @@
     font-size: 30px;
     width: 20px;
 }
-/* flex wrap */
- .container{
+.container{
     display: flex;
-    flex-wrap: wrap;
-} 
-/* flex wrap reverse*/
-/* .container{
-    display: flex;
-    flex-wrap: wrap-reverse;
-} */
-/* flex wrap reverse column*/
-/* .container{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction:column
-} */
+    flex-flow: row-reverse wrap-reverse;
+  
+}
+
