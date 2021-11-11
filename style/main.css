@@ -17,12 +17,6 @@
     flex-flow: row wrap;
    
 }  
-.one{
-    order: 1;    
-}
-.three{
-    order: 2;
-}
-.five{
-    order: 2;
+.item{
+    flex-grow: 1;
 }
