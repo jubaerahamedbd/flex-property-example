@@ -11,9 +11,42 @@
     font-size: 30px;
     width: 20px;
 }
+/* flex content start */
+/* .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+} */
+
+/* flex content end */
+/* .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+} */
+
+/* flex content center */
+/* .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+} */
+/* flex content space around */
+/* .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+} */
+
+/* flex content space between */
+/* .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+} */
+/* flex content space evenly */
 .container{
     display: flex;
-    flex-flow: row-reverse wrap-reverse;
-  
+    flex-flow: row wrap;
+    justify-content:space-evenly;
 }
-
