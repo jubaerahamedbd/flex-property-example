@@ -12,33 +12,17 @@
     font-size: 30px;
     width: 20px;
 }
-/* align content flex-start*/
   .container{
     display: flex;
     flex-flow: row wrap;
-    align-content: flex-start;
+   
 }  
-/* align content flex-end*/
- /* .container{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: flex-end;
-}  */
-/* align content center*/
-/* .container{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-}  */
-/* align content space-between*/
- /* .container{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-between;
-}  */
-/* align content space-around*/
-/* .container{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-around;
-}  */
+.one{
+    order: 1;    
+}
+.three{
+    order: 2;
+}
+.five{
+    order: 2;
+}
